@@ -25,7 +25,7 @@
 
 - to generate some dummy data
 
-<p>5. Run php artisan serve</p> 
+<p>5. php artisan serve</p> 
 
 - to start the server
 
