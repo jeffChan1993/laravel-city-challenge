@@ -53,6 +53,7 @@
 - X is the person's name
 - fetch the full address and street of a house when providing a person's name
 
+## You can test the api via command Line / PHPUnit OR website , link will be equal to your localhost , For exmaple http://127.0.0.1:8000/
 
 ## Verson Document
 
