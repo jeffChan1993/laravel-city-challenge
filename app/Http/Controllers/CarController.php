@@ -49,7 +49,8 @@ class CarController extends BaseController
      *  We can write it into a new Controller and extends this Controller
      *  For example
      *  defines =>public $model_class = Car::class in CarController.php
-     *  then =>$this->model_class::find(1) to get the Car Model result in Controller.php
+     *  write => create / update / delete function in Controller.php
+     *  then => $this->model_class::create([fields]) to create the Car Model result in Controller.php
      */
 
 

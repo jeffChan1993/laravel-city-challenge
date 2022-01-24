@@ -19,13 +19,15 @@ class PeopleTableSeeder extends Seeder
         $faker = \Faker\Factory::create();
 
         /** Assumption
-         * Created 600 house records,  house_id will between 1 and 600
+         * Created 1500 house records,  house_id will between 1 and 600
          * The max age is 130 , min age is 1
-         * $i can be large or less than house record , because each house will have at least person
+         * $i can be larger
+         * than house record , because each house will have at least one person
          */
-        for($i=0;$i<600;$i++){
+
+        for($i=0;$i<1500;$i++){
             Person::create([
-                'house_id' =>$faker->numberBetween(1,600),
+                'house_id' =>\App\Models\House::inRandomOrder()->limit(1)->first()->id,
                 'name' => $faker->name,
                 'age' =>$faker->numberBetween(1,130)
             ]);
