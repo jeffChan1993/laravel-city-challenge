@@ -21,7 +21,7 @@
 
 - to run the database migration 
 
-<pre> php artisan db:seed</pre>
+<pre>php artisan db:seed</pre>
 
 - to generate some dummy data
 
