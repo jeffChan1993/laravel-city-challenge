@@ -11,21 +11,21 @@
 ## Simple Install Document
 
 
-<p>1. npm install</p> 
+<pre>npm install</pre> 
 
 - to install the related modules
 
-<p>2. edit the .env file</p>
+<p>edit the .env file</pre>
 
-<p>3. php artisan migrate </p>
+<pre>php artisan migrate </pre>
 
 - to run the database migration 
 
-<p>4. php artisan db:seed</p>
+<pre> php artisan db:seed</pre>
 
 - to generate some dummy data
 
-<p>5. php artisan serve</p> 
+<pre>php artisan serve</pre> 
 
 - to start the server
 
