@@ -29,7 +29,7 @@
 
 - to start the server
 
-<p>6. you can test the api by inputting localhost:8000
+<p>6. you can test the api by <a href="http://localhost:8000">localhost:8000</a>
   
 ## Api Route Docuemnt
 
