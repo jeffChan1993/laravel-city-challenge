@@ -25,12 +25,12 @@
 
 - to generate some dummy data
 
-<p>5. Run php artisan serve</p> 
+<p>5. php artisan serve</p> 
 
 - to start the server
 
-
-
+<p>6. you can test the api by <a href="http://localhost:8000">localhost:8000</a>
+  
 ## Api Route Docuemnt
 
 <p> GET /persons?page=X </p>
@@ -53,6 +53,7 @@
 - X is the person's name
 - fetch the full address and street of a house when providing a person's name
 
+## You can test the api via Postman/ PHPUnit OR localhost website
 
 ## Verson Document
 
